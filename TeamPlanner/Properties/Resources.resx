@@ -1,0 +1,1269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account" xml:space="preserve">
+    <value>Numéro de compte</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="ActionDate" xml:space="preserve">
+    <value>Date d'action</value>
+  </data>
+  <data name="ActualPassWd" xml:space="preserve">
+    <value>Mot de passe actuel</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="AddCompany" xml:space="preserve">
+    <value>Ajouter une société</value>
+  </data>
+  <data name="AddGeneralParameters" xml:space="preserve">
+    <value>Ajouter des paramètres généreaux</value>
+  </data>
+  <data name="AddLeaveRequest" xml:space="preserve">
+    <value>Ajouter une demande de congé</value>
+  </data>
+  <data name="AddLeaveRequestOthers" xml:space="preserve">
+    <value>Ajouter une demande de congé pour autrui</value>
+  </data>
+  <data name="AddLeaveRight" xml:space="preserve">
+    <value>Ajouter un droit de congé</value>
+  </data>
+  <data name="AddLeaveRightPlan" xml:space="preserve">
+    <value>Ajouter un pan droit de congé</value>
+  </data>
+  <data name="AddLeaveType" xml:space="preserve">
+    <value>Ajouter un type de congé</value>
+  </data>
+  <data name="AddNewHierarchy" xml:space="preserve">
+    <value>Ajouter une hierarchie du poste</value>
+  </data>
+  <data name="AddPublicHoliday" xml:space="preserve">
+    <value>Ajouter un jour férié</value>
+  </data>
+  <data name="AddRole" xml:space="preserve">
+    <value>Ajouter un rôle</value>
+  </data>
+  <data name="AddSeniority" xml:space="preserve">
+    <value>Ajouter une ancienneté</value>
+  </data>
+  <data name="AddUser" xml:space="preserve">
+    <value>Ajouter un utilisateur</value>
+  </data>
+  <data name="Adress" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="AffectationDate" xml:space="preserve">
+    <value>Date d'affectation</value>
+  </data>
+  <data name="AffectationMenth" xml:space="preserve">
+    <value>Mois d'affectation</value>
+  </data>
+  <data name="AffectationType" xml:space="preserve">
+    <value>Type d'affectation</value>
+  </data>
+  <data name="AffectedTo" xml:space="preserve">
+    <value>Affecté à </value>
+  </data>
+  <data name="AffectEmplToCompany" xml:space="preserve">
+    <value>Affecter l'employé à une poste</value>
+  </data>
+  <data name="AffectEmplToUser" xml:space="preserve">
+    <value>Affecter l'utilisateur à un employé</value>
+  </data>
+  <data name="Afternoon" xml:space="preserve">
+    <value>Après-midi</value>
+  </data>
+  <data name="AnnualLeave" xml:space="preserve">
+    <value>Congé annuel</value>
+  </data>
+  <data name="Applicant" xml:space="preserve">
+    <value>Demandeur</value>
+  </data>
+  <data name="Approval" xml:space="preserve">
+    <value>Approbation</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Retour à la liste</value>
+  </data>
+  <data name="Balance" xml:space="preserve">
+    <value>Solde de congé</value>
+  </data>
+  <data name="BalanceAfter" xml:space="preserve">
+    <value>Solde après</value>
+  </data>
+  <data name="Birthday" xml:space="preserve">
+    <value>Date de naissance</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="Bonus" xml:space="preserve">
+    <value>Probléme survenu lors de calcul de bonification</value>
+  </data>
+  <data name="CalculateWeekend1" xml:space="preserve">
+    <value>Calculer le premier jour de weekend</value>
+  </data>
+  <data name="CalculateWeekend2" xml:space="preserve">
+    <value>Calculer le weekend deuxième  jour de weekend</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Canceled" xml:space="preserve">
+    <value>Annulée</value>
+  </data>
+  <data name="ChangePassWd" xml:space="preserve">
+    <value>Change your password</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Changer le mot de passe</value>
+  </data>
+  <data name="ChangePasswordForm" xml:space="preserve">
+    <value>Changer le formulaire du mot de passe</value>
+  </data>
+  <data name="CheckPosition" xml:space="preserve">
+    <value>Vérifier le poste de l'employé</value>
+  </data>
+  <data name="CIN" xml:space="preserve">
+    <value>Numéro CIN</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="CodeExist" xml:space="preserve">
+    <value>Ce code existe déjà.</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Commentaire</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Société</value>
+  </data>
+  <data name="Company1" xml:space="preserve">
+    <value>Société</value>
+  </data>
+  <data name="CompanyExist" xml:space="preserve">
+    <value>La société existe déjà.</value>
+  </data>
+  <data name="CompanyList" xml:space="preserve">
+    <value>Liste des sociétés</value>
+  </data>
+  <data name="CompareDate" xml:space="preserve">
+    <value>La date de début de congé doit être inférieur à la date de reprise.</value>
+  </data>
+  <data name="CompareStartEndDate" xml:space="preserve">
+    <value>La date de début  doit être inférieur à la date fin.</value>
+  </data>
+  <data name="CompPassWd" xml:space="preserve">
+    <value>Le {0} doit compter au moins {2} caractères.</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirmer</value>
+  </data>
+  <data name="ConfirmNewPassWd" xml:space="preserve">
+    <value>Confirmer le nouveau mot de passe</value>
+  </data>
+  <data name="ConfirmPassWd" xml:space="preserve">
+    <value>Confirmer le mot de passe</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Courant</value>
+  </data>
+  <data name="Cycle" xml:space="preserve">
+    <value>Cycle</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Tableau de bord</value>
+  </data>
+  <data name="DataVerify" xml:space="preserve">
+    <value>Merci de verifier vos données!</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DateCreat" xml:space="preserve">
+    <value>Date de création</value>
+  </data>
+  <data name="DateCreat1" xml:space="preserve">
+    <value>Date de création</value>
+  </data>
+  <data name="DateDebutTache" xml:space="preserve">
+    <value>Date debut tache</value>
+  </data>
+  <data name="DateFinTache" xml:space="preserve">
+    <value>Date Fin Tache</value>
+  </data>
+  <data name="DateModif" xml:space="preserve">
+    <value>Date de modification</value>
+  </data>
+  <data name="DateModif1" xml:space="preserve">
+    <value>Date de modification</value>
+  </data>
+  <data name="Dateweekend" xml:space="preserve">
+    <value>La date debut ou reprise correspond a un jour du week end</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>Jour</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="DeleteCompany" xml:space="preserve">
+    <value>Supprimer société</value>
+  </data>
+  <data name="DeleteLeaveType" xml:space="preserve">
+    <value>Supprimer un type de congé</value>
+  </data>
+  <data name="DeleteLine" xml:space="preserve">
+    <value>Êtes-vous sûr de vouloir supprimer cette ligne ?</value>
+  </data>
+  <data name="DeleteMsg" xml:space="preserve">
+    <value>Êtes-vous sures de supprimer cet élément?</value>
+  </data>
+  <data name="DeletePublicHoliday" xml:space="preserve">
+    <value>Supprimer jour férié</value>
+  </data>
+  <data name="DeleteRole" xml:space="preserve">
+    <value>Supprimer un rôle</value>
+  </data>
+  <data name="DeleteUser" xml:space="preserve">
+    <value>Supprimer un utilisateur</value>
+  </data>
+  <data name="DeliveryDateCin" xml:space="preserve">
+    <value>Date de délivrance de CIN</value>
+  </data>
+  <data name="Departement" xml:space="preserve">
+    <value>Département</value>
+  </data>
+  <data name="DepartmentList" xml:space="preserve">
+    <value>Liste des départements</value>
+  </data>
+  <data name="DernierSouche" xml:space="preserve">
+    <value>Dernier numéro du poste</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="DiffPassWd" xml:space="preserve">
+    <value>Le nouveau mot de passe et le mot de passe de confirmation sont différents.</value>
+  </data>
+  <data name="Divorced" xml:space="preserve">
+    <value>Divorcé(e)</value>
+  </data>
+  <data name="Divorced1" xml:space="preserve">
+    <value>Divorcé(e)</value>
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Document</value>
+  </data>
+  <data name="DocumentType" xml:space="preserve">
+    <value>Type de document</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="Editcompany" xml:space="preserve">
+    <value>Modifier une société</value>
+  </data>
+  <data name="EditGeneralParameters" xml:space="preserve">
+    <value>Modifier les paramètres généreaux</value>
+  </data>
+  <data name="EditLeaveRequest" xml:space="preserve">
+    <value>Modifier la demande de congé</value>
+  </data>
+  <data name="EditLeaveRight" xml:space="preserve">
+    <value>Modifier le droit de congé</value>
+  </data>
+  <data name="EditLeaveRightPlan" xml:space="preserve">
+    <value>Modifier le plan des droits de congé</value>
+  </data>
+  <data name="EditLeaveType" xml:space="preserve">
+    <value>Modifier le type de congé</value>
+  </data>
+  <data name="EditPublicHoliday" xml:space="preserve">
+    <value>Modifier le jour férié</value>
+  </data>
+  <data name="EditRole" xml:space="preserve">
+    <value>Modifier le rôle</value>
+  </data>
+  <data name="EditSeniority" xml:space="preserve">
+    <value>Modifier l'ancienneté</value>
+  </data>
+  <data name="EditUser" xml:space="preserve">
+    <value>Modifier l'utilisateur</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Courrier électronique</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Employé</value>
+  </data>
+  <data name="EmployeeExit" xml:space="preserve">
+    <value>Cet employé existe déjà.</value>
+  </data>
+  <data name="EmployeeList" xml:space="preserve">
+    <value>Liste des employés</value>
+  </data>
+  <data name="Emptybalance" xml:space="preserve">
+    <value>Le solde de congé est vide</value>
+  </data>
+  <data name="En" xml:space="preserve">
+    <value>Anglais</value>
+  </data>
+  <data name="EndDateBonus" xml:space="preserve">
+    <value>Date de fin de la bonification</value>
+  </data>
+  <data name="Entitled" xml:space="preserve">
+    <value>Intitulé</value>
+  </data>
+  <data name="Failcancelingleave" xml:space="preserve">
+    <value>Problème lors d'annulation de titre de congé</value>
+  </data>
+  <data name="Failcongevalide" xml:space="preserve">
+    <value>Le droit de congé est déja validé</value>
+  </data>
+  <data name="FailCreateCompany" xml:space="preserve">
+    <value>Problème lors de création de la société</value>
+  </data>
+  <data name="FailCreateDepartement" xml:space="preserve">
+    <value>Problème lors de création de Departement</value>
+  </data>
+  <data name="FailCreateEmployee" xml:space="preserve">
+    <value>Problème lors de création d'employée</value>
+  </data>
+  <data name="FailCreateGeneralSettings" xml:space="preserve">
+    <value>Problème lors de création de parametres generaux</value>
+  </data>
+  <data name="FailCreateLeaveRequest" xml:space="preserve">
+    <value>Problème lors de création de Demande de Conge</value>
+  </data>
+  <data name="FailCreateplan" xml:space="preserve">
+    <value>Problème lors de création de Plan Droit Congé</value>
+  </data>
+  <data name="FailCreateUnite" xml:space="preserve">
+    <value>Probléme lors de création d'une unite d'observation</value>
+  </data>
+  <data name="FailCreationHoliday" xml:space="preserve">
+    <value>Problème lors de création de jour férié</value>
+  </data>
+  <data name="FailCreatRegime" xml:space="preserve">
+    <value>Problème lors de création de regimeTravail</value>
+  </data>
+  <data name="FailCreatseuil" xml:space="preserve">
+    <value>Problème lors de création d'une seuil</value>
+  </data>
+  <data name="FailDeleteAnciente" xml:space="preserve">
+    <value>Problème lors de suppression d'ancienté</value>
+  </data>
+  <data name="FailDeleteCompany" xml:space="preserve">
+    <value>La suppression de cette société est impossible.</value>
+  </data>
+  <data name="FailDeleteDepartement" xml:space="preserve">
+    <value>La suppression de ce departement  est impossible.</value>
+  </data>
+  <data name="FailDeleteEmployee" xml:space="preserve">
+    <value>La suppression de cet employé est impossible.</value>
+  </data>
+  <data name="FailDeleteHierarchyPosition" xml:space="preserve">
+    <value>Probléme lors de suppression d'hierarchy de poste</value>
+  </data>
+  <data name="FailDeletePlanDroitConge" xml:space="preserve">
+    <value>La suppression de ce plan droit de congé est impssible.</value>
+  </data>
+  <data name="FailDeletePosition" xml:space="preserve">
+    <value>La suppression de ce poste est impossible.</value>
+  </data>
+  <data name="FailDeleteRegimeTravail" xml:space="preserve">
+    <value>La suppression de ce regime de travail de congé est impssible.</value>
+  </data>
+  <data name="FailDeleteSeuil" xml:space="preserve">
+    <value>La suppression de seuil est impossible.</value>
+  </data>
+  <data name="FailDeleteTypeConge" xml:space="preserve">
+    <value>La suppression de ce  type de congé est impssible.</value>
+  </data>
+  <data name="FailDeleteTypeHierarchy" xml:space="preserve">
+    <value>La suppression de ce type d'hierarchie de poste est impossible.</value>
+  </data>
+  <data name="FailDeleteUnit" xml:space="preserve">
+    <value>La suppression d'unite d'observation est impossible.</value>
+  </data>
+  <data name="FailDeleteUser" xml:space="preserve">
+    <value>La suppression decet utilisateur est impossible.</value>
+  </data>
+  <data name="FailDeleteWfStep" xml:space="preserve">
+    <value>La suppression de cet étape de flux de travail est impossible.</value>
+  </data>
+  <data name="FailDeleteWorkflow" xml:space="preserve">
+    <value>La suppression de ce flux de travail est impossible.</value>
+  </data>
+  <data name="FailDepartementObject" xml:space="preserve">
+    <value>L'objet departement est vide</value>
+  </data>
+  <data name="FailDoAction" xml:space="preserve">
+    <value>Un probléme est survenu lors de votre demande.</value>
+  </data>
+  <data name="FailEmployeeassignment" xml:space="preserve">
+    <value>Problème lors de suppression d'affectation Employé</value>
+  </data>
+  <data name="FailEmptyGeneralSettings" xml:space="preserve">
+    <value>Les paramètres Généraux sont vide</value>
+  </data>
+  <data name="FailEmptyplan" xml:space="preserve">
+    <value>Le plan de droit de congé est vide</value>
+  </data>
+  <data name="FailEmptyRegime" xml:space="preserve">
+    <value>Le régime Travail est vide</value>
+  </data>
+  <data name="FailEmptyseuil" xml:space="preserve">
+    <value>La liste des seuils est vide</value>
+  </data>
+  <data name="FailEmptyTypeHierarchyPosition" xml:space="preserve">
+    <value>Pas de données pour le Type Hierarchy Position</value>
+  </data>
+  <data name="FailEmptyUnitie" xml:space="preserve">
+    <value>No data for the observation unit</value>
+  </data>
+  <data name="FailHierarchyPosition" xml:space="preserve">
+    <value>Le poste ne peut pas être égal au poste référent.</value>
+  </data>
+  <data name="Failholiday" xml:space="preserve">
+    <value>Pas de données pour le jour ferie</value>
+  </data>
+  <data name="Failleavetype" xml:space="preserve">
+    <value>Probléme survenu lors  de création de type de congé</value>
+  </data>
+  <data name="FailModifLeaveRequest" xml:space="preserve">
+    <value>Problème lors de modification de Demande de Conge</value>
+  </data>
+  <data name="FailModifParamGeneraux" xml:space="preserve">
+    <value>La modification des paramètres généraux est impossible.</value>
+  </data>
+  <data name="FailModifyHierarchyPosition" xml:space="preserve">
+    <value>Probléme lors de modification de hierarchy de poste</value>
+  </data>
+  <data name="FailRightLeave" xml:space="preserve">
+    <value>Problème lors de création de Droit Congé</value>
+  </data>
+  <data name="FieldRequired" xml:space="preserve">
+    <value>Le champ {0} est obligatoire.</value>
+  </data>
+  <data name="FiscalNumber" xml:space="preserve">
+    <value>Numéro fiscal</value>
+  </data>
+  <data name="Forname" xml:space="preserve">
+    <value>Prénom</value>
+  </data>
+  <data name="Fr" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Vendredi</value>
+  </data>
+  <data name="FromAnc" xml:space="preserve">
+    <value>Date de début du travail</value>
+  </data>
+  <data name="FromDate" xml:space="preserve">
+    <value>Date de début</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Genre</value>
+  </data>
+  <data name="GenDetailsLeaveRight" xml:space="preserve">
+    <value>Générer les details du droit de congé</value>
+  </data>
+  <data name="GeneralParameters" xml:space="preserve">
+    <value>Paramètres généreaux</value>
+  </data>
+  <data name="GetCheckedData" xml:space="preserve">
+    <value>Cocher la donnée adéquate</value>
+  </data>
+  <data name="HierarchyPosition" xml:space="preserve">
+    <value>Hierarchie du poste</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="IncrimenteDay" xml:space="preserve">
+    <value>Nombre de jours à incrémenter</value>
+  </data>
+  <data name="IsActif" xml:space="preserve">
+    <value>Actif</value>
+  </data>
+  <data name="IsSubstitute" xml:space="preserve">
+    <value>Autoriser les remplaçants</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="Leave" xml:space="preserve">
+    <value>Congé</value>
+  </data>
+  <data name="LeaveBalanceList" xml:space="preserve">
+    <value>Liste des soldes de congé</value>
+  </data>
+  <data name="LeaveNumberDays" xml:space="preserve">
+    <value>Nombre de jours</value>
+  </data>
+  <data name="LeavePortal" xml:space="preserve">
+    <value>Portail des congés</value>
+  </data>
+  <data name="LeaveRequest" xml:space="preserve">
+    <value>Demande de congé</value>
+  </data>
+  <data name="LeaveRequestExist" xml:space="preserve">
+    <value>Cette demande de congé existe déjà.</value>
+  </data>
+  <data name="LeaveRequestList" xml:space="preserve">
+    <value>Liste des demandes de congé</value>
+  </data>
+  <data name="LeaveRequestListOthers" xml:space="preserve">
+    <value>Demande de congé de l'équipe</value>
+  </data>
+  <data name="LeaveRequestNow" xml:space="preserve">
+    <value>Demande de congé à valider</value>
+  </data>
+  <data name="LeaveRequestsubmitExist" xml:space="preserve">
+    <value>Erreur lors de soumission de votre demande</value>
+  </data>
+  <data name="LeaveRight" xml:space="preserve">
+    <value>Droit de congé</value>
+  </data>
+  <data name="LeaveRightDetails" xml:space="preserve">
+    <value>Détails droit de congé</value>
+  </data>
+  <data name="LeaveRightExist" xml:space="preserve">
+    <value>Ce droit de congé existe déjà.</value>
+  </data>
+  <data name="LeaveRightList" xml:space="preserve">
+    <value>Liste des droits de congé</value>
+  </data>
+  <data name="LeaveRightPlanList" xml:space="preserve">
+    <value>Liste plan droit de congé</value>
+  </data>
+  <data name="LeaveTitle" xml:space="preserve">
+    <value>Titre de congé</value>
+  </data>
+  <data name="LeaveTitleList" xml:space="preserve">
+    <value>Liste des titres de congé</value>
+  </data>
+  <data name="LeaveTitleListOthers" xml:space="preserve">
+    <value>Liste des titres de congé de l'équipe</value>
+  </data>
+  <data name="LeaveTitleNumber" xml:space="preserve">
+    <value>Numéro de titre</value>
+  </data>
+  <data name="LeaveTitleOthers" xml:space="preserve">
+    <value>Titre de congé de l'équipe</value>
+  </data>
+  <data name="LeaveToValidateAlert" xml:space="preserve">
+    <value>Pas de demande à valider</value>
+  </data>
+  <data name="LeaveType" xml:space="preserve">
+    <value>Type de congé</value>
+  </data>
+  <data name="LeaveTypeList" xml:space="preserve">
+    <value>Liste des types de congé</value>
+  </data>
+  <data name="LegalStatus" xml:space="preserve">
+    <value>Statut légal</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Niveau</value>
+  </data>
+  <data name="LevelVerify" xml:space="preserve">
+    <value>Une étape de flux de travail existe avec le même niveau.</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>Se connecter</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>Se déconnecter</value>
+  </data>
+  <data name="MailNotif" xml:space="preserve">
+    <value>Mail de notification</value>
+  </data>
+  <data name="Man" xml:space="preserve">
+    <value>Homme</value>
+  </data>
+  <data name="Man1" xml:space="preserve">
+    <value>Homme</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Gérer</value>
+  </data>
+  <data name="ManageParameters" xml:space="preserve">
+    <value>Changer les paramètres de votre compte</value>
+  </data>
+  <data name="MaritalStatus" xml:space="preserve">
+    <value>Situation familiale</value>
+  </data>
+  <data name="Married" xml:space="preserve">
+    <value>Marié(e)</value>
+  </data>
+  <data name="Married1" xml:space="preserve">
+    <value>Marié(e)</value>
+  </data>
+  <data name="Modification" xml:space="preserve">
+    <value>Modification de</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Lundi</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="NbreDays" xml:space="preserve">
+    <value>Nombre de jours</value>
+  </data>
+  <data name="NbrJourNonValide" xml:space="preserve">
+    <value>le nombre de jour doit être superieur à zéro.</value>
+  </data>
+  <data name="NegativeBalance" xml:space="preserve">
+    <value>Autoriser les soldes négatifs</value>
+  </data>
+  <data name="NewPassWd" xml:space="preserve">
+    <value>Nouveau mot de passe</value>
+  </data>
+  <data name="NotifSteps" xml:space="preserve">
+    <value>Les notifications des étapes de flux de travail</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Numéro</value>
+  </data>
+  <data name="NumTel" xml:space="preserve">
+    <value>Numéro de téléphone</value>
+  </data>
+  <data name="Object" xml:space="preserve">
+    <value>Objet</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Ordre</value>
+  </data>
+  <data name="ParamGenerauxControl" xml:space="preserve">
+    <value>Le premier jour du weekendet le deuxième jour du weekend doivent être différents.</value>
+  </data>
+  <data name="ParamGenerauxExist" xml:space="preserve">
+    <value>Ces paramètres généraux existent déjà.</value>
+  </data>
+  <data name="ParamWeek" xml:space="preserve">
+    <value>Paramètre weekend</value>
+  </data>
+  <data name="PassportNumber" xml:space="preserve">
+    <value>Numéro de passeport</value>
+  </data>
+  <data name="PassWd" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="Photo" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="PlaceCin" xml:space="preserve">
+    <value>Lieu d'émission CIN</value>
+  </data>
+  <data name="PlanDroitConge" xml:space="preserve">
+    <value>Plan droit congé</value>
+  </data>
+  <data name="PlanDroitCongeExist" xml:space="preserve">
+    <value>Le plan droit de congé existe déjà.</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Poste</value>
+  </data>
+  <data name="PositionList" xml:space="preserve">
+    <value>Liste des postes</value>
+  </data>
+  <data name="Positions" xml:space="preserve">
+    <value>Postes</value>
+  </data>
+  <data name="PositionSup" xml:space="preserve">
+    <value>Poste de référence</value>
+  </data>
+  <data name="Prepared" xml:space="preserve">
+    <value>Préparée</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Imprimer</value>
+  </data>
+  <data name="Privilege" xml:space="preserve">
+    <value>Privilège</value>
+  </data>
+  <data name="PublicHoliday" xml:space="preserve">
+    <value>Jours fériés</value>
+  </data>
+  <data name="PublicHolidayExist" xml:space="preserve">
+    <value>Le jour férié existe déjà.</value>
+  </data>
+  <data name="PublicHolidayList" xml:space="preserve">
+    <value>Liste des jours fériés</value>
+  </data>
+  <data name="Recipient" xml:space="preserve">
+    <value>Destinataire</value>
+  </data>
+  <data name="RecruitementDate" xml:space="preserve">
+    <value>Date de recrutement</value>
+  </data>
+  <data name="RecrutementControl" xml:space="preserve">
+    <value>Il faut que la date de recrutement soit antérieure ou égale au date début d'affectation du poste.</value>
+  </data>
+  <data name="Refused" xml:space="preserve">
+    <value>Refusée</value>
+  </data>
+  <data name="RefuseRequest" xml:space="preserve">
+    <value>Refuser la demande</value>
+  </data>
+  <data name="RegimeTravailExist" xml:space="preserve">
+    <value>Ce regime de travail existe déjà.</value>
+  </data>
+  <data name="RegistrationNumber" xml:space="preserve">
+    <value>Matricule</value>
+  </data>
+  <data name="Rejection" xml:space="preserve">
+    <value>Refus</value>
+  </data>
+  <data name="RememberBrowser" xml:space="preserve">
+    <value>Voulez-vous mémoriser ce navigateur ?</value>
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Voulez-vous mémoriser le mot de passe ?</value>
+  </data>
+  <data name="RemplacantError" xml:space="preserve">
+    <value>Le champs remplaçant est obligatoire</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>Date de la demande</value>
+  </data>
+  <data name="RequestEndDate" xml:space="preserve">
+    <value>Date de reprise</value>
+  </data>
+  <data name="Requestor" xml:space="preserve">
+    <value>Demandeur</value>
+  </data>
+  <data name="RequestStartDate" xml:space="preserve">
+    <value>Date de début du congé</value>
+  </data>
+  <data name="RequestStatus" xml:space="preserve">
+    <value>Statut de la demande</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Réinitialiser</value>
+  </data>
+  <data name="RestPassword" xml:space="preserve">
+    <value>Réinitialisez votre mot de passe.</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Renvoi</value>
+  </data>
+  <data name="ReturnRequest" xml:space="preserve">
+    <value>Renvoyer la demande</value>
+  </data>
+  <data name="RH" xml:space="preserve">
+    <value>Ressources humaines</value>
+  </data>
+  <data name="Right" xml:space="preserve">
+    <value>Droit</value>
+  </data>
+  <data name="RightUpdated" xml:space="preserve">
+    <value>Droit mis à jour</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Rôle</value>
+  </data>
+  <data name="RoleList" xml:space="preserve">
+    <value>Liste des rôles</value>
+  </data>
+  <data name="RoleName" xml:space="preserve">
+    <value>Nom du rôle</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Rôles</value>
+  </data>
+  <data name="RolesPrivileges" xml:space="preserve">
+    <value>Liste des privilèges par rôle</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Samedi</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="Sens" xml:space="preserve">
+    <value>Sens</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Paramétrages</value>
+  </data>
+  <data name="Seuil" xml:space="preserve">
+    <value>Seuil</value>
+  </data>
+  <data name="SeuilList" xml:space="preserve">
+    <value>Liste des seuils</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>Célibataire</value>
+  </data>
+  <data name="Single1" xml:space="preserve">
+    <value>Célibataire</value>
+  </data>
+  <data name="SoldNegatif" xml:space="preserve">
+    <value>Votre Solde est insuffisant. Vous avez {0} jour(s).</value>
+  </data>
+  <data name="StartDateBonus" xml:space="preserve">
+    <value>Date de début de la bonification</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Statut</value>
+  </data>
+  <data name="Step" xml:space="preserve">
+    <value>Etape</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Soumettre</value>
+  </data>
+  <data name="Submitted" xml:space="preserve">
+    <value>Soumise</value>
+  </data>
+  <data name="Substitute" xml:space="preserve">
+    <value>Remplaçant</value>
+  </data>
+  <data name="SuccesRolePrivileges" xml:space="preserve">
+    <value>Les privilèges de ce role ont été mis à jour.</value>
+  </data>
+  <data name="successAddAssignementEmployee" xml:space="preserve">
+    <value>L'insertion de cette affectation employé est effectuée avec succès.</value>
+  </data>
+  <data name="successAddHierarchyPosition" xml:space="preserve">
+    <value>L'insertion d'un poste d'hierarchie est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessAddLeaveRequest" xml:space="preserve">
+    <value>L'insertion de cette demande de congé est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessAddPosition" xml:space="preserve">
+    <value>L'insertion de ce poste est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessAddStepWorkflow" xml:space="preserve">
+    <value>L'insertion de cette étape du flux de travail est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessCompany" xml:space="preserve">
+    <value>L'insertion de cette société est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessDeleteCompany" xml:space="preserve">
+    <value>La suppression de cette société est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessDeleteDepartement" xml:space="preserve">
+    <value>La suppression de ce departement  est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessDeleteEmployee" xml:space="preserve">
+    <value>La suppression de cet employé est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessDeletePlanDroitConge" xml:space="preserve">
+    <value>La suppression de ce plan droit de congé est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessDeletePosition" xml:space="preserve">
+    <value>La suppression de ce poste est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessDeleteRegimeTravail" xml:space="preserve">
+    <value>La suppression de ce regime de travail de congé est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessDeleteSeuil" xml:space="preserve">
+    <value>La suppression de seuil  est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessDeleteTypeConge" xml:space="preserve">
+    <value>La suppression de ce type de congé est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessDeleteTypeHierarchy" xml:space="preserve">
+    <value>La suppression de ce d type d'hierarchie de poste est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessDeleteUnit" xml:space="preserve">
+    <value>La suppression d'unite d'observation  est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessDeleteUser" xml:space="preserve">
+    <value>La suppression de cet utilisateur est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessDeleteWorkflow" xml:space="preserve">
+    <value>La suppression de ce flux de travail est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessDepartment" xml:space="preserve">
+    <value>L'insertion de ce department est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessEditAssignementEmployee" xml:space="preserve">
+    <value>La modification de cette affectation employé est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessEditStepWorkflow" xml:space="preserve">
+    <value>La modification de cette étape du flux de travail est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessEmployee" xml:space="preserve">
+    <value>L'insertion de cet employé est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessLeaveRight" xml:space="preserve">
+    <value>L'insertion de ce droit de congé est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessModifCompany" xml:space="preserve">
+    <value>La modification de cette société est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessModifDepartement" xml:space="preserve">
+    <value>La modification de ce departement est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessModifDroitConge" xml:space="preserve">
+    <value>La modification de ce droit de congé est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessModifEmployee" xml:space="preserve">
+    <value>La modification de cet employé est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessModifLeaveRequest" xml:space="preserve">
+    <value>La modification de cette demande de congé est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessModifParamGeneraux" xml:space="preserve">
+    <value>La modification des paramètres généraux est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessModifPlanDroitConge" xml:space="preserve">
+    <value>La modification de ce plan droit de congé est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessModifPosition" xml:space="preserve">
+    <value>La modification de ce poste est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessModifPublicHoliday" xml:space="preserve">
+    <value>La modification de ce jour férié est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessModifRegimeTravail" xml:space="preserve">
+    <value>La modification de ce regime de travail est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessModifSeuil" xml:space="preserve">
+    <value>La modification de seuil est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessModifTypeConge" xml:space="preserve">
+    <value>La modification de ce type de congé est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessModifTypeHierarchyPosition" xml:space="preserve">
+    <value>La modification de ce type d'hierarchie de poste est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessModifUnit" xml:space="preserve">
+    <value>La modification d'unite d'observation est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessModifUser" xml:space="preserve">
+    <value>La modification de cet utilisateur est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessModifWorkflow" xml:space="preserve">
+    <value>La modification de ce flux de travail est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessParamGeneraux" xml:space="preserve">
+    <value>L'insertion des paramètres généraux est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessPlanDroitConge" xml:space="preserve">
+    <value>L'insertion de ce plan droit de congé est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessPublicHoliday" xml:space="preserve">
+    <value>L'insertion de ce jour férié est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessRegimeTravail" xml:space="preserve">
+    <value>L'insertion de ce regime de travail est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessSeuil" xml:space="preserve">
+    <value>L'insertion de seuil est effectuée avec succès.</value>
+  </data>
+  <data name="SuccesssubmitRequest" xml:space="preserve">
+    <value>L'ajout de votre demande est soumise.</value>
+  </data>
+  <data name="SuccessTypeConge" xml:space="preserve">
+    <value>L'insertion de ce type de conge est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessTypeHierarchyPosition" xml:space="preserve">
+    <value>L'insertion de ce type d'hierarchie de poste est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessUnit" xml:space="preserve">
+    <value>L'insertion d'unité d'observation est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessUser" xml:space="preserve">
+    <value>L'insertion de cet utilisateur est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessUserRoles" xml:space="preserve">
+    <value>Les rôles de cet utilisateur sont mis à jour.</value>
+  </data>
+  <data name="SuccessWorkflow" xml:space="preserve">
+    <value>L'insertion de ce flux de travail est effectuée avec succès.</value>
+  </data>
+  <data name="SuccessWorkflowStep" xml:space="preserve">
+    <value>L'insertion de cet étape de flux de travail est effectuée avec succès.</value>
+  </data>
+  <data name="Sucessrefusal" xml:space="preserve">
+    <value>La demande est refusée avec succès</value>
+  </data>
+  <data name="Sucessreturn" xml:space="preserve">
+    <value>La demande est renvoyée avec succès</value>
+  </data>
+  <data name="SucessValidation" xml:space="preserve">
+    <value>La demande est validée avec succès</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Dimanche</value>
+  </data>
+  <data name="SuuccessCancelTitle" xml:space="preserve">
+    <value>L'annulation du titre de congé a été effectuée avec succès.</value>
+  </data>
+  <data name="Team" xml:space="preserve">
+    <value>Equipe</value>
+  </data>
+  <data name="TelGSM" xml:space="preserve">
+    <value>Numéro de téléphone mobile</value>
+  </data>
+  <data name="test" xml:space="preserve">
+    <value>test1</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Jeudi</value>
+  </data>
+  <data name="TitleStatus" xml:space="preserve">
+    <value>Statut du titre de congé</value>
+  </data>
+  <data name="TitularizationDate" xml:space="preserve">
+    <value>Date de titularisation</value>
+  </data>
+  <data name="ToAnc" xml:space="preserve">
+    <value>Nombre de mois</value>
+  </data>
+  <data name="ToDate" xml:space="preserve">
+    <value>Date de fin</value>
+  </data>
+  <data name="Tovalidate" xml:space="preserve">
+    <value>Demandes à valider</value>
+  </data>
+  <data name="TradeRegister" xml:space="preserve">
+    <value>Registre du commerce</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Mardi</value>
+  </data>
+  <data name="TypeCongeExist" xml:space="preserve">
+    <value>Ce type de congé existe déjà.</value>
+  </data>
+  <data name="TypeHierarchyLeave" xml:space="preserve">
+    <value>Hierarchie de congé</value>
+  </data>
+  <data name="TypeHierarchyPosition" xml:space="preserve">
+    <value>Type d'hierarchie de poste</value>
+  </data>
+  <data name="Typeleave" xml:space="preserve">
+    <value>Le type de congé n'existe pas</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Unité d'observation</value>
+  </data>
+  <data name="UnitList" xml:space="preserve">
+    <value>Liste d'unités d'observation</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Utilisateur</value>
+  </data>
+  <data name="UserCreat" xml:space="preserve">
+    <value>Crée par</value>
+  </data>
+  <data name="UserExist" xml:space="preserve">
+    <value>Cet utilisateur existe déjà.</value>
+  </data>
+  <data name="UserList" xml:space="preserve">
+    <value>Liste des utilisateurs</value>
+  </data>
+  <data name="UserModif" xml:space="preserve">
+    <value>Modifié par</value>
+  </data>
+  <data name="UserModif1" xml:space="preserve">
+    <value>Modifié par</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Nom d'utilisateur</value>
+  </data>
+  <data name="UserName1" xml:space="preserve">
+    <value>Nom d'utilisateur</value>
+  </data>
+  <data name="UserRolesList" xml:space="preserve">
+    <value>Liste des rôles d'utilisateur</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Utilisateurs</value>
+  </data>
+  <data name="Valeur" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="Validated" xml:space="preserve">
+    <value>Validée</value>
+  </data>
+  <data name="ValidateRequest" xml:space="preserve">
+    <value>Valider la demande</value>
+  </data>
+  <data name="ValidityDateRP" xml:space="preserve">
+    <value>Date de validité de passeport</value>
+  </data>
+  <data name="ValidLeaveRight" xml:space="preserve">
+    <value>Valider droit de congé</value>
+  </data>
+  <data name="Waiting" xml:space="preserve">
+    <value>Attente</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Mercredi</value>
+  </data>
+  <data name="WeekEnd1" xml:space="preserve">
+    <value>Premier jour de weekend</value>
+  </data>
+  <data name="WeekEnd2" xml:space="preserve">
+    <value>deuxième jour de weekend</value>
+  </data>
+  <data name="WFDocExist" xml:space="preserve">
+    <value>Un flux de travail pour ce type de document existe déjà.</value>
+  </data>
+  <data name="WFSteps" xml:space="preserve">
+    <value>Les étapes de flux de travail</value>
+  </data>
+  <data name="Widower" xml:space="preserve">
+    <value>Veuf/Veuve</value>
+  </data>
+  <data name="Widower1" xml:space="preserve">
+    <value>Veuf/Veuve</value>
+  </data>
+  <data name="Woman" xml:space="preserve">
+    <value>Femme</value>
+  </data>
+  <data name="Woman1" xml:space="preserve">
+    <value>Femme</value>
+  </data>
+  <data name="Workflow" xml:space="preserve">
+    <value>Flux de travail</value>
+  </data>
+  <data name="WorkflowList" xml:space="preserve">
+    <value>Liste des flux de travail</value>
+  </data>
+  <data name="WorkRegime" xml:space="preserve">
+    <value>Régime de travail</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Année</value>
+  </data>
+</root>
